@@ -1,0 +1,188 @@
+# Project data (add before generic patterns so it's clear)
+data/
+data/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+.ipenv/
+.ipyenv/
+
+# Poetry / pipenv
+.poetry/
+pipenv.pipes
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytestdebug.log
+
+# Type checker / static analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.vscode/
+.history/
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Django / Flask stuff
+*.sqlite3
+db.sqlite3
+instance/
+.webassets-cache
+
+# Local environment variables
+.env
+.env.*
+*.env
+
+# Caches
+__pypackages__/
+.pybuild/
+
+# Packaging metadata
+*.manifest
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Misc
+*.pot
+*.mo
+
+# Binary / data artifacts (optional, adjust if needed)
+*.lock
+*.orig
+
+# Coverage temp
+.python-version
+
+# Git credentials (if ever created)
+.git-credentials
+
+# Optional: comment out if you want these tracked
+# *.csv
+# *.tsv
+# *.parquet
+# *.feather
+# Data files (uncomment if you don't want to track large datasets)
+# *.csv
+# *.json
+# *.parquet
+# *.pkl
+# *.pickle
+# *.h5
+# *.hdf5
+
+# Model files
+*.joblib
+*.pkl
+*.pickle
+models/
+saved_models/
+checkpoints/
+
+# Experiment tracking
+mlruns/
+wandb/
+.neptune/
+tensorboard_logs/
+
+# Optuna studies
+optuna_studies/
+*.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Output directories
+output/
+results/
+submissions/
